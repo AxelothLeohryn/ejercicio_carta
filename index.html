@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <address>             <!-- Faltaría ajustar a la derecha -->
+        <address id="sender">             <!-- Faltaría ajustar a la derecha -->
             <i><b>Dr. Eleanor Gaye</b><br> 
-            Awesome Science faculty University of Awesome Bobtown. CA 99999. <br>
+            Awesome Science faculty <br>
+            University of Awesome Bobtown. CA 99999.<br>
             USA <br>
             <b>Tel</b>: 123-456-7890 <br>
             <b>Email</b>: no_reply®example.com <br>
             20 January 2016 <br></i>
         </address>
-        <address> <!-- Faltaría ajustar a la izquierda -->
+        <address id="receiver"> <!-- Faltaría ajustar a la izquierda -->
             <br>
             <b>Miss Eileen Dover</b><br>
             4321 Cliff Top Edge <br>
@@ -56,8 +58,8 @@
             At the Awesome Science Faculty, we have a pretty open-minded research facility — as long as the subjects fall somewhere in the realm of science and technology. You seem like an intelligent, dedicated researcher, and just the kind of person we'd like to have on our team. Saying that, of the ideas you submitted we were most intrigued by are as follows, in order of priority:
         </p>
         <ol>
-            <li>Turning H2O into wine, and the health benefits of Rcsveratrol (C14H12O3.)</li>
-            <li>Measuring the effect on performance of funk bassplaycrs at tcmpraturcs exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 x 103 > 3 x 104.)</li>
+            <li>Turning H <sub>2</sub>O into wine, and the health benefits of Rcsveratrol (C<sub>14</sub>H <sub>12</sub>O <sub>3</sub>.)</li>
+            <li>Measuring the effect on performance of funk bassplaycrs at tcmpraturcs exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 x 10 <sup>3</sup> > 3 x 10 <sup>4</sup>.)</li>
             <li>HTML and CSS constructs for representing musical scores.</li>
     </ol>
     <p>
@@ -65,8 +67,11 @@
     </p>
     </section>
     <section id="dancemoves">
+        <h2>
+            Dance moves
+        </h2>
         <p>
-            Yes, you are right! As part of my post-doctorate work. I did study exotic tribal dances. To answer your question, my favourite dances are as follows, with definitions:
+            Yes, you are right! As part of my post-doctorate work. I <em>did</em> study exotic tribal dances. To answer your question, my favourite dances are as follows, with definitions:
         </p>
         <dl>
             <dt>Polynesian chicken dance</dt>
@@ -87,7 +92,7 @@
         </p>
     </section>
     <footer>
-        University of Awesome motto: “Be excellent to each other.” - Bill S Preston. Esq
+        University of Awesome motto: “Be excellent to each other.” - <em>Bill S Preston. Esq</em>
     </footer>
     </main>
 </body>
